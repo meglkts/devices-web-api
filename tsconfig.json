@@ -14,8 +14,8 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2020",
-    "types": ["node"]
+    "types": ["node", "mocha"]
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "include": ["src/**/*.ts", "test/**/*"],
   "exclude": ["node_modules", "dist"]
 }
