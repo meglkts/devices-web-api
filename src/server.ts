@@ -14,5 +14,5 @@ app.use(express.json());
 app.use("/devices", DeviceRoutes);
 
 app.listen(port, () => {
-  console.log(`Server running on Port ${port}`);
+  console.log(`Server running at localhost:${port}`);
 });

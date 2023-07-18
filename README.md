@@ -14,6 +14,9 @@ Start API server
 
 `npm run start`
 
+**Note: you can optionally specify a custom port as environment variable PORT. Example:
+`PORT=3001 npm run start`
+
 <br>
 
 *Run in watch mode for easier development*
